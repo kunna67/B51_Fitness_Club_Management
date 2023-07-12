@@ -1,0 +1,60 @@
+body{
+    background-color: #151515 !important;
+}
+
+.trainers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.trainers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trainer-card {
+  width: 700px;
+  height: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 20px 50px 20px;
+  display: flex;
+  text-align: center;
+  font-family: 'Mulish' , sans-serif;
+}
+
+.trainer-image {
+  width: 300px;
+  height: 210px;
+  
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.trainer-info {
+  flex: 1;
+  margin: 0 0 0 40px;
+
+}
+
+.trainer-info h2 {
+  font-size: 30px;
+  font-family: 'Oswald' , sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(255, 97, 0);
+}
+
+.trainer-info p {
+  font-size: 18px;
+}
+.trainers-container > h2{
+  font-size: 48px;
+  font-family: 'Oswald' , sans-serif;
+  text-decoration: underline;
+}

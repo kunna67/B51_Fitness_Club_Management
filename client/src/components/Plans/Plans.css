@@ -1,0 +1,76 @@
+body{
+  margin :0;
+}
+
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-color: black;
+    padding-top: 40px;
+  }
+  
+  .plan-card {
+    width: 300px;
+    height : 400px;
+    padding: 20px;
+    border: 1px solid rgb(70, 67, 67);
+    color: white;
+    
+    text-align: center;
+    background-color: black;
+    margin: 2% 5%;
+    
+   
+  }
+  
+  /* Rest of the CSS styles for PlanCard component */
+  
+  .plan-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Oswald' , sans-serif;
+  }
+  
+  .plan-price {
+    font-size: 58px;
+    margin: 10px 0;
+    font-weight: 700;
+    font-family: 'Mulish' , sans-serif;
+    color: rgb(255, 97, 0);
+  }
+  
+  .plan-features {
+    font-family: 'Mulish'  , sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+  
+  .plan-features li {
+    margin-bottom: 5px;
+
+  }
+  
+  .plan-button {
+    background-color:#151515;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Mulish' , sans-serif ;
+    font-size: 16px;
+    
+  }
+  
+  
+  .plan-card:hover {
+    background-color: white;
+    color : black
+
+  }
+  

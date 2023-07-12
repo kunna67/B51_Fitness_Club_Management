@@ -1,0 +1,29 @@
+.side-nav-bar{
+    margin: 0;
+    width: 250px;
+    background-color: rgb(255,97,0);
+    height: 100%;
+    position: fixed;
+    color: white;
+}
+
+.side-nav-bar > div{
+    width: 100%;
+    font-family: 'Mulish' , sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 30px;
+    border-bottom: 2px solid white;
+    
+    
+}
+
+.side-links{
+    margin-top: 120px;
+    text-decoration: none;
+    color : white;
+    text-align: center;
+    
+    
+}

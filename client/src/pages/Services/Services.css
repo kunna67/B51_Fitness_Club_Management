@@ -1,0 +1,55 @@
+.services-header{
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Oswald' , sans-serif;
+  font-weight: 300;
+  padding : 3% 0;
+  color: white;
+  background-color: black;
+  margin-bottom: 0.25%;
+  text-decoration: underline;
+}
+
+
+.service-1 , .service-2 , .service-3 , .service-4{
+  display: flex;
+  
+}
+
+  h2{
+  color: rgb(255 , 97 , 0);
+}
+
+.service-img{
+  width: 50%;
+  height: 400px;
+  /* margin-left: 5%; */
+}
+
+.service-desc{
+  width: 46%;
+  padding : 5% 2%;
+  
+}
+
+.service-1 , .service-3 > .service-desc{
+  background-color: white;
+}
+
+.service-2 , .service-4 > .service-desc{
+  background-color: black;
+  color: white;
+}
+
+
+.service-desc > h2{
+  font-family: 'Oswald' , sans-serif;
+  font-size: 28px;
+}
+
+.service-text{
+    font-family: 'Mulish',sans-serif;
+    text-align: justify;
+}

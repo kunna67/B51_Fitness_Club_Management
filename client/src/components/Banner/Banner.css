@@ -1,0 +1,61 @@
+.banner-image {
+    width: 100%;
+    max-height: 100vh; 
+    object-fit: cover;
+    
+  }
+
+  .banner-container {
+    position: relative;
+    
+  }
+  
+ 
+  
+  .banner-text {
+    height: 500px;
+    width: 790px;
+    position: absolute;
+    top: 15%;
+    margin-left: 5%;
+    background-color: rgba(0, 0,0, 0.8);
+    text-align: center;
+    
+    z-index: 1;
+    padding: 3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+
+  }
+  
+  .banner-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-size: 71px;
+    color: white;
+  }
+
+  .brand {
+    color: rgb(255,97, 0);
+    margin-left: 15px;
+  }
+  
+  .banner-text p {
+    font-size: 16px;
+    color: #ccc;
+    font-size: 60px;
+  }
+  
+  .book-class-button {
+    background-color:RGB(243, 97, 0);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins' , sans-serif;
+  }
+  
+
+  

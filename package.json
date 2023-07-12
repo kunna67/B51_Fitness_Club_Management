@@ -1,0 +1,22 @@
+{
+  "name": "fitnes",
+  "version": "1.0.0",
+  "description": "Its for Kunnal",
+  "main": "index.js",
+  "scripts": {
+  
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "install-all": "npm install && npm install --prefix client && npm install --prefix server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.1.0"
+  },
+  "dependencies": {
+    "dateformat": "^5.0.3"
+  }
+}

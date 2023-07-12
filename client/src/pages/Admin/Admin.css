@@ -1,0 +1,51 @@
+.class-container , .coach-container{
+    color: black;
+}
+
+.class-container, .coach-container{
+    display:block;
+    
+}
+
+.class-card {
+    width: auto;
+  height: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 50px;
+  
+  text-align: center;
+  font-family: 'Mulish' , sans-serif;
+   
+}
+.trainer-card{
+    display: block;
+    width: auto;
+    height: 300px;
+    padding: 2px;
+}
+
+.class-card > h2{
+    color:rgb(255 , 97 , 0)
+}
+
+.trainer-card>h2{
+    color:rgb(255 , 97 , 0)
+}
+
+button{
+    background-color: rgb(255, 97, 0);
+    border: 2px solid white;
+    color: white;
+    margin-left: 10px;
+    padding: 12px;
+    margin-right: 20px;
+    font-weight: 200;
+    font-family: 'Mulish' , sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+  
+}
+

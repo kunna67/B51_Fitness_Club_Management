@@ -1,0 +1,18 @@
+h2{
+    font-family: 'Oswald' , sans-serif;
+    font-size: 32px;
+    color: whitesmoke;
+}
+
+.profile-container{
+    width: 500px;
+    height : 500px;
+    background-color: white;
+    border: 2px solid rgb(255,97,0);
+    font-family: 'Mulish' , sans-serif;
+    font-size: 24px;
+    margin: 30px 30%;
+    padding: 20px 20px 0 20px;
+
+}
+

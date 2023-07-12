@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7bab95bb.css",
+    "main.js": "/static/js/main.5beceffe.js",
+    "static/media/banner.jpg": "/static/media/banner.f1f1b7eb2674021aa95e.jpg",
+    "static/media/services.jpg": "/static/media/services.3394b1c01975a14df4bc.jpg",
+    "static/media/Gyn9.gif": "/static/media/Gyn9.a7c68ea5ca521d649df0.gif",
+    "static/media/trainer3.png": "/static/media/trainer3.aaf3cd101dfceae2f291.png",
+    "static/media/trainer1.webp": "/static/media/trainer1.7e1d7fa0a22cbb9ef593.webp",
+    "index.html": "/index.html",
+    "main.7bab95bb.css.map": "/static/css/main.7bab95bb.css.map",
+    "main.5beceffe.js.map": "/static/js/main.5beceffe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bab95bb.css",
+    "static/js/main.5beceffe.js"
+  ]
+}
